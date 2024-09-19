@@ -14,6 +14,8 @@
 		8DA784B32C9CD9F900D25CF8 /* BikerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA784B22C9CD9F900D25CF8 /* BikerUITests.swift */; };
 		8DA784BD2C9CD9F900D25CF8 /* BikerUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA784BC2C9CD9F900D25CF8 /* BikerUIUITests.swift */; };
 		8DA784BF2C9CD9F900D25CF8 /* BikerUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA784BE2C9CD9F900D25CF8 /* BikerUIUITestsLaunchTests.swift */; };
+		8DA784CC2C9CDACF00D25CF8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA784CB2C9CDACF00D25CF8 /* HomeView.swift */; };
+		8DA784CE2C9CDAEE00D25CF8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA784CD2C9CDAEE00D25CF8 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8DA784B82C9CD9F900D25CF8 /* BikerUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikerUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA784BC2C9CD9F900D25CF8 /* BikerUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikerUIUITests.swift; sourceTree = "<group>"; };
 		8DA784BE2C9CD9F900D25CF8 /* BikerUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikerUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DA784CB2C9CDACF00D25CF8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8DA784CD2C9CDAEE00D25CF8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				8DA784A32C9CD9F500D25CF8 /* ContentView.swift */,
 				8DA784A52C9CD9F900D25CF8 /* Assets.xcassets */,
 				8DA784A72C9CD9F900D25CF8 /* Preview Content */,
+				8DA784CB2C9CDACF00D25CF8 /* HomeView.swift */,
+				8DA784CD2C9CDAEE00D25CF8 /* ProfileView.swift */,
 			);
 			path = BikerUI;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA784CE2C9CDAEE00D25CF8 /* ProfileView.swift in Sources */,
+				8DA784CC2C9CDACF00D25CF8 /* HomeView.swift in Sources */,
 				8DA784A42C9CD9F500D25CF8 /* ContentView.swift in Sources */,
 				8DA784A22C9CD9F500D25CF8 /* BikerUIApp.swift in Sources */,
 			);
