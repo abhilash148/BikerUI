@@ -114,13 +114,13 @@
 		8DA784A02C9CD9F500D25CF8 /* BikerUI */ = {
 			isa = PBXGroup;
 			children = (
+				8DA784E22C9CE72F00D25CF8 /* Signup */,
+				8DA784E12C9CE72300D25CF8 /* Login */,
+				8DA784E02C9CE6FD00D25CF8 /* Dashboard */,
 				8DA784CF2C9CDF3500D25CF8 /* GoogleService-Info.plist */,
 				8DA784A12C9CD9F500D25CF8 /* BikerUIApp.swift */,
-				8DA784A32C9CD9F500D25CF8 /* ContentView.swift */,
 				8DA784A52C9CD9F900D25CF8 /* Assets.xcassets */,
 				8DA784A72C9CD9F900D25CF8 /* Preview Content */,
-				8DA784CB2C9CDACF00D25CF8 /* HomeView.swift */,
-				8DA784CD2C9CDAEE00D25CF8 /* ProfileView.swift */,
 			);
 			path = BikerUI;
 			sourceTree = "<group>";
@@ -148,6 +148,30 @@
 				8DA784BE2C9CD9F900D25CF8 /* BikerUIUITestsLaunchTests.swift */,
 			);
 			path = BikerUIUITests;
+			sourceTree = "<group>";
+		};
+		8DA784E02C9CE6FD00D25CF8 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				8DA784CD2C9CDAEE00D25CF8 /* ProfileView.swift */,
+				8DA784CB2C9CDACF00D25CF8 /* HomeView.swift */,
+				8DA784A32C9CD9F500D25CF8 /* ContentView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		8DA784E12C9CE72300D25CF8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8DA784E22C9CE72F00D25CF8 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Signup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
