@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D38D1482C9D1F00005E57E2 /* NewBikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D1472C9D1F00005E57E2 /* NewBikeView.swift */; };
+		8D38D14A2C9D2FA5005E57E2 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D1492C9D2FA5005E57E2 /* Navigation.swift */; };
 		8DA784A22C9CD9F500D25CF8 /* BikerUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA784A12C9CD9F500D25CF8 /* BikerUIApp.swift */; };
 		8DA784A42C9CD9F500D25CF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA784A32C9CD9F500D25CF8 /* ContentView.swift */; };
 		8DA784A62C9CD9F900D25CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA784A52C9CD9F900D25CF8 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		8D38D1472C9D1F00005E57E2 /* NewBikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBikeView.swift; sourceTree = "<group>"; };
+		8D38D1492C9D2FA5005E57E2 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		8DA7849E2C9CD9F500D25CF8 /* BikerUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikerUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA784A12C9CD9F500D25CF8 /* BikerUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikerUIApp.swift; sourceTree = "<group>"; };
 		8DA784A32C9CD9F500D25CF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				8DA784A12C9CD9F500D25CF8 /* BikerUIApp.swift */,
 				8DA784A52C9CD9F900D25CF8 /* Assets.xcassets */,
 				8DA784A72C9CD9F900D25CF8 /* Preview Content */,
+				8D38D1492C9D2FA5005E57E2 /* Navigation.swift */,
 			);
 			path = BikerUI;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			files = (
 				8D38D1482C9D1F00005E57E2 /* NewBikeView.swift in Sources */,
 				8DA784CE2C9CDAEE00D25CF8 /* ProfileView.swift in Sources */,
+				8D38D14A2C9D2FA5005E57E2 /* Navigation.swift in Sources */,
 				8DA784CC2C9CDACF00D25CF8 /* HomeView.swift in Sources */,
 				8DA784A42C9CD9F500D25CF8 /* ContentView.swift in Sources */,
 				8DA784A22C9CD9F500D25CF8 /* BikerUIApp.swift in Sources */,
