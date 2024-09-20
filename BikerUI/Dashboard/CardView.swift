@@ -10,7 +10,12 @@ import SwiftUI
 struct CardView: View {
     var bike: String
     var body: some View {
-        Text(bike)
+        VStack(alignment: .center, content: {
+            Text(bike)
+        })
+        .frame(maxWidth: .infinity, minHeight: 150, maxHeight: 180)
+        .background(.gray.opacity(0.4))
+        .clipShape(RoundedRectangle(cornerRadius: 20))
     }
 }
 
