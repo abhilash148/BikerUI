@@ -24,6 +24,7 @@
 		8DA784DB2C9CDF9D00D25CF8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA784DA2C9CDF9D00D25CF8 /* FirebaseFirestore */; };
 		8DA784DD2C9CDF9D00D25CF8 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA784DC2C9CDF9D00D25CF8 /* FirebaseInAppMessaging-Beta */; };
 		8DA784DF2C9CDF9D00D25CF8 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA784DE2C9CDF9D00D25CF8 /* FirebaseRemoteConfig */; };
+		8DA784E42C9CE78300D25CF8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA784E32C9CE78300D25CF8 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		8DA784CB2C9CDACF00D25CF8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8DA784CD2C9CDAEE00D25CF8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8DA784CF2C9CDF3500D25CF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8DA784E32C9CE78300D25CF8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				8DA784CD2C9CDAEE00D25CF8 /* ProfileView.swift */,
 				8DA784CB2C9CDACF00D25CF8 /* HomeView.swift */,
 				8DA784A32C9CD9F500D25CF8 /* ContentView.swift */,
+				8DA784E32C9CE78300D25CF8 /* CardView.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				8DA784CC2C9CDACF00D25CF8 /* HomeView.swift in Sources */,
 				8DA784A42C9CD9F500D25CF8 /* ContentView.swift in Sources */,
 				8DA784A22C9CD9F500D25CF8 /* BikerUIApp.swift in Sources */,
+				8DA784E42C9CE78300D25CF8 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

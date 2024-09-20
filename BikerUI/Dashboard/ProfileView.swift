@@ -9,7 +9,14 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        Text("Profile")
+        VStack {
+            
+            Text("Profile")
+            List {
+                Text("Add New Bike")
+            }
+            
+        }
     }
 }
 

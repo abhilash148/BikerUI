@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State var bikes = ["Bike1", "Bike2", "Bike3", "Bike4", "Bike5", "Bike6"]
+    
     var body: some View {
-        Text("Home")
+        
+        VStack {
+            Text("Bikes")
+            
+            List {
+                
+                ForEach(bikes, id: \.self) { bike in
+                    CardView(bike: bike)
+                }
+            }
+        }
     }
 }
 
