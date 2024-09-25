@@ -35,7 +35,7 @@ struct BikerUIApp: App {
                             case .newBikerView:
                                 NewBikeView()
                             case .cameraView:
-                                NewBikeView()
+                                CameraView()
                         }
                     }
             }
