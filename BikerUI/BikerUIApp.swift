@@ -21,11 +21,25 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct BikerUIApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @ObservedObject var router = Router()
     
     var body: some Scene {
         
         WindowGroup {
-            ContentView()
+            NavigationStack(path: $router.navPath) {
+                ContentView()
+                    .navigationDestination(for: Router.Destination.self) { destination in
+                        switch destination {
+                            case .loginView:
+                                CardView(bike: "1234")
+                            case .newBikerView:
+                                NewBikeView()
+                            case .cameraView:
+                                NewBikeView()
+                        }
+                    }
+            }
         }
+        .environmentObject(router)
     }
 }

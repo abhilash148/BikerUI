@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var router: Router
+    
     var body: some View {
         TabView {
             HomeView()
